@@ -1,0 +1,34 @@
+/* Global */
+
+html {
+    width: 100%;
+}
+
+body {
+    background-color: rgb(18,18,18);
+    color: #fff;
+}
+
+/* Header */
+
+#title {
+    color: rgb(110,204,255);
+    margin-top: 5px;
+}
+
+.header {
+   
+}
+
+#search-div {
+    margin-top: 5px;
+    width: 50%;
+}
+
+/* Search Bar */
+#search-bar {
+    width: 15%;
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+}
