@@ -12,12 +12,13 @@ body {
 /* Header */
 
 #title {
-    color: rgb(110,204,255);
+    color: #fff;
+    border-left: 3px solid red;
+    padding-left: 10px;
     margin-top: 5px;
-}
-
-.header {
-   
+    margin-left: 0;
+    font-weight: 800;
+    letter-spacing: 3px;
 }
 
 #search-div {
@@ -27,8 +28,65 @@ body {
 
 /* Search Bar */
 #search-bar {
-    width: 15%;
+    width: 90%;
     border-radius: 12px;
     border: none;
     padding: 5px;
+}
+
+#search-button {
+    padding: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgb(18,18,18);
+    padding: 5px;
+    margin-left: 1rem;
+    border: 3px solid #20bf6b;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+/* Button Div */
+#button-div {
+    margin-top: 30px;
+}
+
+#button {
+    text-transform: uppercase;
+    color: #fff;
+    background: rgb(18,18,18);
+    padding: 5px;
+    margin-left: 1rem;
+    border: 3px solid yellow;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: inline-block;
+}
+
+#button:hover {
+    font-size: 1.2rem;
+    transition: all 0.3s ease 0s;
+}
+
+/* Display Div */
+
+#display-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+#eachDiv {
+    padding: 10px;
+    margin-bottom: 3rem;
+}
+
+#rating {
+    margin-top: 2px;
+}
+
+#url {
+    color: #20bf6b;
 }
