@@ -1,4 +1,5 @@
 function game () {
+    // populate topics array with example topics
     var topics = ["ocean", "blowfish", "lighthouse", "sea", "waves", "whale", "vast", "beach", "water", "shark", "tidal","random"];
     
 
@@ -38,9 +39,9 @@ function game () {
             // populate html with button created
             $("#button-div").append("<input type='button' id='button' value='" + search + "'>")
             
-            // on click any button
+            // on click any button (during the search button click)
             $(":button").on("click", function () {
-                // makes sure search button is excluded (making sure it doesnt search and create button at the same time)
+                // makes sure the value search isn't grabbed and displayed (makes sure the search button doesnt act like any other button)
                 if($(this).val() === "search") {
                     return;
                 } else {
