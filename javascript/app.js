@@ -83,7 +83,7 @@ function game () {
                 method: "GET"
             }).then(function(response) {
                 for(var i = 0; i < 25; i++) {
-                    var url = "<a id='url' href='" + response.data[i].url + "'> Click here for Original </a>";
+                    var url = "<a id='url' href='" + response.data[i].url + "'> CLICK HERE FOR ORIGINAL </a>";
                     var image = "<img id='created-image' src='" + response.data[i].images.fixed_width.url + "'>";
                     var rating = "<p id='rating'>Rating: " + response.data[i].rating + "</p>";
                     var div = "<div id='eachDiv'>" + image + rating + url + "</div>";

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: rgb(30,30,30);
+    background-color: rgb(49, 208, 219);
     color: #fff;
 }
 
@@ -37,8 +37,8 @@ body {
 #search-button {
     padding: 5px;
     text-transform: uppercase;
-    color: #fff;
-    background: rgb(30,30,30);
+    color: rgb(255, 123, 0);
+    background: rgb(247,255,171);
     padding: 5px;
     margin-left: 1rem;
     border: 3px solid #20bf6b;
@@ -54,8 +54,8 @@ body {
 
 #button {
     text-transform: uppercase;
-    color: #fff;
-    background: rgb(30,30,30);
+    color: rgb(255, 123, 0);
+    background: rgb(247, 255, 171);
     padding: 5px;
     margin-left: 1rem;
     border: 3px solid yellow;
@@ -63,6 +63,7 @@ body {
     border-right: none;
     border-left: none;
     display: inline-block;
+    border-radius: 25px;
 }
 
 #button:hover {
@@ -85,8 +86,10 @@ body {
 
 #rating {
     margin-top: 2px;
+    color:rgb(255, 123, 0);
 }
 
 #url {
-    color: #20bf6b;
+    color: rgb(255, 123, 0);
+    
 }
